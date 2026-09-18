@@ -1,12 +1,13 @@
 <p align="center">
-  <img src="./assets/figures/prokda_font.png" alt="ProKDA" width="640" />
+  <img src="./assets/figures/prokda_font.png" alt="ProKDA" width="100%" />
 </p>
+
 
 
 <table border="0">
   <tr>
     <td width="100" align="right" valign="middle" style="border: none;">
-      <img src="./assets/figures/prokda_logo.png"
+      <img src="assets/figures/prokda_logo.png"
            alt="ProKDA Logo"
            width="70" />
     </td>
@@ -21,8 +22,6 @@
 	</td>
    </tr>
 </table>
-
-
 
 <p align="center">
   <a href="https://arxiv.org/abs/2609.19778">
@@ -42,6 +41,7 @@
   </a>
 </p>
 
+
 ## <img src="assets/icons/overview.png" width="40" align="absmiddle"> Overview
 
 Hateful memes often express abusive or discriminatory meanings through subtle interactions between visual content, text, and external background knowledge, making hatefulness difficult to determine from the meme alone. Existing explain-then-detect methods jointly optimize explanation generation and label prediction, which may introduce task interference and degrade detection performance. To address this, we propose **ProKDA**, which separates knowledge acquisition from decision learning and progressively transforms background knowledge into reliable hatefulness judgments.
@@ -56,6 +56,8 @@ The core idea of ProKDA can be summarized as:
 
 This progressive formulation enables the model to exploit external knowledge while reducing the interference between explanation generation and label prediction.
 
+
+
 ## <img src="assets/icons/method.png" width="40" align="absmiddle"> Method
 
 ProKDA combines **agentic background knowledge construction** with **progressive knowledge-to-decision alignment**. It first builds meme-specific background knowledge through an agentic pipeline that identifies external knowledge needs, retrieves relevant evidence, and organizes it into textual, visual, and multimodal knowledge. Based on this knowledge, ProKDA progressively trains the multimodal model through **background knowledge learning**, **hatefulness detection learning**, and **hatefulness boundary alignment**, gradually transforming external knowledge into reliable hatefulness decisions while reducing interference between explanation generation and label prediction.
@@ -63,6 +65,7 @@ ProKDA combines **agentic background knowledge construction** with **progressive
 <p align="center">
   <img src="assets/figures/method.png" width="65%" alt="ProKDA method" />
 </p>
+
 
 ## <img src="assets/icons/result.png" width="40" align="absmiddle"> Results
 
@@ -79,6 +82,7 @@ Compared with conventional **direct detection**, **explain-then-detect**, and **
 <p align="center">
   <img src="assets/figures/result.png" width="70%" alt="Main results" />
 </p>
+
 
 ## <img src="assets/icons/example.png" width="40" align="absmiddle"> Qualitative Examples
 
@@ -107,6 +111,7 @@ ProKDA aligns background knowledge with final decisions, enabling more reliable 
 <p align="center">
   <img src="assets/figures/case6.png" width="50%" alt="Evidence-supported decision example" />
 </p>
+
 
 ## <img src="assets/icons/cite.png" width="40" align="absmiddle"> Citation
 
