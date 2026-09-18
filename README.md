@@ -11,19 +11,16 @@
            width="70" />
     </td>
     <td align="center" valign="middle" style="border: none;">
-      <big>
-        <strong>
-          <em>
-            Learn Before You Judge:
-            Progressive Knowledge-to-Decision Alignment
-            for Explainable Hateful Meme Detection
-          </em>
-        </strong>
-      </big>
+       <h2>
+         <em>
+           Learn Before You Judge:
+           Progressive Knowledge-to-Decision Alignment
+           for Explainable Hateful Meme Detection
+         </em>
+       </h2>
     </td>
    </tr>
 </table>
-
 
 <p align="center">
   <a href="https://arxiv.org/abs/2609.19778">
@@ -42,6 +39,7 @@
     <img src="https://img.shields.io/github/forks/MeiZhiyuan88666/ProKDA-Source?style=flat&logo=github" alt="GitHub forks" />
   </a>
 </p>
+
 
 
 ## <img src="assets/icons/overview.png" width="40" align="absmiddle"> Overview
