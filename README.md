@@ -3,7 +3,6 @@
 </p>
 
 
-
 <table border="0">
   <tr>
     <td width="100" align="right" valign="middle" style="border: none;">
@@ -12,16 +11,19 @@
            width="70" />
     </td>
     <td align="center" valign="middle" style="border: none;">
-  		<h2>
-    	<em>
-      Learn Before You Judge:
-      Progressive Knowledge-to-Decision Alignment
-      for Explainable Hateful Meme Detection
-    	</em>
-  	</h2>
-	</td>
+      <big>
+        <strong>
+          <em>
+            Learn Before You Judge:
+            Progressive Knowledge-to-Decision Alignment
+            for Explainable Hateful Meme Detection
+          </em>
+        </strong>
+      </big>
+    </td>
    </tr>
 </table>
+
 
 <p align="center">
   <a href="https://arxiv.org/abs/2609.19778">
@@ -93,24 +95,27 @@ The following qualitative examples illustrate how ProKDA leverages relevant back
 ProKDA identifies implicit hateful intent by connecting visual and textual cues with relevant background knowledge.
 
 <p align="center">
-  <img src="assets/figures/case1.png" width="50%" alt="Implicit hateful meaning example" />
+  <img src="assets/figures/case1.png" width="60%" alt="Implicit hateful meaning example" />
 </p>
+
 
 #### Background Knowledge Matters
 
 External knowledge helps ProKDA resolve references beyond the meme image and text alone.
 
 <p align="center">
-  <img src="assets/figures/case4.png" width="50%" alt="Background knowledge example" />
+  <img src="assets/figures/case4.png" width="60%" alt="Background knowledge example" />
 </p>
+
 
 #### Evidence-Supported Decision
 
 ProKDA aligns background knowledge with final decisions, enabling more reliable explanations.
 
 <p align="center">
-  <img src="assets/figures/case6.png" width="50%" alt="Evidence-supported decision example" />
+  <img src="assets/figures/case6.png" width="60%" alt="Evidence-supported decision example" />
 </p>
+
 
 
 ## <img src="assets/icons/cite.png" width="40" align="absmiddle"> Citation
