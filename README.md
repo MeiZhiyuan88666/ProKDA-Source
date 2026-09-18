@@ -1,17 +1,24 @@
 <p align="center">
   <img src="./assets/figures/prokda_font.png" alt="ProKDA" width="640" />
 </p>
-
-<table>
+<table border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="110" align="center" valign="middle">
-      <img src="./assets/figures/prokda_logo.png" alt="ProKDA Logo" width="70" />
+    <td align="right" valign="middle" width="100">
+      <img src="./assets/figures/prokda_logo.png"
+           alt="ProKDA Logo"
+           width="60" />
     </td>
-    <td valign="middle">
-      <h2><em>Learn Before You Judge: Progressive Knowledge-to-Decision Alignment for Explainable Hateful Meme Detection</em></h2>
+
+
+    <td align="left" valign="middle">
+      <b><em>
+        Learn Before You Judge: Progressive Knowledge-to-Decision Alignment<br>
+        for Explainable Hateful Meme Detection
+      </em></b>
     </td>
   </tr>
 </table>
+
 
 
 <p align="center">
